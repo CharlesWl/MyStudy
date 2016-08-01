@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WLPageViewController">
+            <connections>
+                <outlet property="WLWebView" destination="caM-MM-Bop" id="67l-OC-ad5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsA-cT-ejE">
+                    <rect key="frame" x="8" y="70" width="114" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="R">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRd-oN-i1m">
+                    <rect key="frame" x="130" y="70" width="115" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Y">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2C8-sS-JIl">
+                    <rect key="frame" x="253" y="70" width="114" height="30"/>
+                    <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="G">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caM-MM-Bop">
+                    <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2C8-sS-JIl" firstAttribute="leading" secondItem="wRd-oN-i1m" secondAttribute="trailing" constant="8" id="0sw-0a-wqj"/>
+                <constraint firstItem="2C8-sS-JIl" firstAttribute="width" secondItem="hsA-cT-ejE" secondAttribute="width" id="1jk-6q-UQ3"/>
+                <constraint firstItem="wRd-oN-i1m" firstAttribute="width" secondItem="hsA-cT-ejE" secondAttribute="width" id="DF6-Tn-Pfv"/>
+                <constraint firstAttribute="bottom" secondItem="caM-MM-Bop" secondAttribute="bottom" constant="49" id="IEU-rw-Xgr"/>
+                <constraint firstAttribute="trailing" secondItem="2C8-sS-JIl" secondAttribute="trailing" constant="8" id="IFc-uo-AOP"/>
+                <constraint firstAttribute="trailing" secondItem="caM-MM-Bop" secondAttribute="trailing" id="Qej-al-gWg"/>
+                <constraint firstItem="caM-MM-Bop" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VQi-DG-Z1w"/>
+                <constraint firstItem="wRd-oN-i1m" firstAttribute="top" secondItem="hsA-cT-ejE" secondAttribute="top" id="WTx-Vq-Fmh"/>
+                <constraint firstItem="2C8-sS-JIl" firstAttribute="top" secondItem="hsA-cT-ejE" secondAttribute="top" id="YiL-TC-nsI"/>
+                <constraint firstItem="hsA-cT-ejE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="auI-wb-veR"/>
+                <constraint firstItem="wRd-oN-i1m" firstAttribute="leading" secondItem="hsA-cT-ejE" secondAttribute="trailing" constant="8" id="d6I-R5-tfI"/>
+                <constraint firstItem="caM-MM-Bop" firstAttribute="top" secondItem="2C8-sS-JIl" secondAttribute="bottom" constant="8" id="fkE-WP-Fue"/>
+                <constraint firstItem="wRd-oN-i1m" firstAttribute="height" secondItem="hsA-cT-ejE" secondAttribute="height" id="tJo-wG-fMH"/>
+                <constraint firstItem="hsA-cT-ejE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="twa-pk-dvg"/>
+                <constraint firstItem="2C8-sS-JIl" firstAttribute="height" secondItem="hsA-cT-ejE" secondAttribute="height" id="u34-uB-Kcb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="302.5" y="379.5"/>
+        </view>
+    </objects>
+</document>
