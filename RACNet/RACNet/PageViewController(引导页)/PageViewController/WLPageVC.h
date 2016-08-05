@@ -1,13 +1,13 @@
 //
-//  CollectViewVC.h
+//  WLPageVC.h
 //  RACNet
 //
-//  Created by charles on 16/7/20.
+//  Created by charles on 16/8/3.
 //  Copyright © 2016年 Charles_Wl. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface CollectViewVC : UIViewController
+@interface WLPageVC : UIViewController
 
 @end

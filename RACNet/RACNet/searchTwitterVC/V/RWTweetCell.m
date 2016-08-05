@@ -20,7 +20,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    [RACObserve(self, self.rwtweetViewmodel) subscribeNext:^(RWTweetViewModel *rwtweetViewmodel) {
+    [RACObserve(self, rwtweetViewmodel) subscribeNext:^(RWTweetViewModel *rwtweetViewmodel) {
         self.headIV.image = [UIImage imageNamed:rwtweetViewmodel.imageUrl];
         self.nameLabel.text = rwtweetViewmodel.name;
         self.timeLabel.text = rwtweetViewmodel.sexString;

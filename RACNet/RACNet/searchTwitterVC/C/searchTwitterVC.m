@@ -35,16 +35,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self bindWithViewModel];
-    
-   RWTweet *tweet = [[RWTweet alloc]init]; //1
-    self.tweet = tweet; //2
-    NSLog(@"%p",tweet);
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        RWTweet *tweet1 = [[RWTweet alloc]init];
-        self.tweet = tweet1;
-        
-    });
-    
     @weakify(self);
     RACSignal *signal = [self.searchTextFiled.rac_textSignal map:^id(NSString *text) {
         @strongify(self);
@@ -60,8 +50,6 @@
     self.searchTV.rowHeight = 100;
     //倒计时
     [self createTimer];
-    
-    //-1 = 1 
 }
 
 - (void)bindWithViewModel {

@@ -15,6 +15,13 @@
 		5601CBC71D1781C2001612A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5601CBC51D1781C2001612A5 /* LaunchScreen.storyboard */; };
 		5601CBD21D1781C2001612A5 /* RACNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601CBD11D1781C2001612A5 /* RACNetTests.m */; };
 		5601CBDD1D1781C2001612A5 /* RACNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601CBDC1D1781C2001612A5 /* RACNetUITests.m */; };
+		5602C11F1D5183C300C4C7ED /* WLPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602C11D1D5183C300C4C7ED /* WLPageVC.m */; };
+		5602C1201D5183C300C4C7ED /* WLPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5602C11E1D5183C300C4C7ED /* WLPageVC.xib */; };
+		5602C1241D51873000C4C7ED /* CutPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602C1221D51873000C4C7ED /* CutPageVC.m */; };
+		5602C1251D51873000C4C7ED /* CutPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5602C1231D51873000C4C7ED /* CutPageVC.xib */; };
+		5602C1281D51C34800C4C7ED /* WLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602C1271D51C34800C4C7ED /* WLPViewController.m */; };
+		5602C12C1D51CA3400C4C7ED /* MYPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5602C12A1D51CA3400C4C7ED /* MYPageVC.m */; };
+		5602C12D1D51CA3400C4C7ED /* MYPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5602C12B1D51CA3400C4C7ED /* MYPageVC.xib */; };
 		56287E9C1D45E63700487E53 /* signInRACSignalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E7B1D45E63700487E53 /* signInRACSignalModel.m */; };
 		56287E9D1D45E63700487E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E7D1D45E63700487E53 /* ViewController.m */; };
 		56287E9E1D45E63700487E53 /* searchTwitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E811D45E63700487E53 /* searchTwitterVC.m */; };
@@ -25,10 +32,6 @@
 		56287EA31D45E63700487E53 /* RWTweetViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E8C1D45E63700487E53 /* RWTweetViewModel.m */; };
 		56287EA41D45E63700487E53 /* SubscribeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E8E1D45E63700487E53 /* SubscribeViewModel.m */; };
 		56287EA51D45E63700487E53 /* RequestHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E911D45E63700487E53 /* RequestHttpTool.m */; };
-		56287EA61D45E63700487E53 /* CollectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E941D45E63700487E53 /* CollectViewVC.m */; };
-		56287EA71D45E63700487E53 /* CollectViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56287E951D45E63700487E53 /* CollectViewVC.xib */; };
-		56287EA81D45E63700487E53 /* ProductCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E971D45E63700487E53 /* ProductCVCell.m */; };
-		56287EA91D45E63700487E53 /* ProductCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56287E981D45E63700487E53 /* ProductCVCell.xib */; };
 		56287EAA1D45E63700487E53 /* NSString+EmailAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287E9B1D45E63700487E53 /* NSString+EmailAdditions.m */; };
 		56287EAF1D45EB2600487E53 /* TouchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56287EAD1D45EB2600487E53 /* TouchVC.m */; };
 		56287EB01D45EB2600487E53 /* TouchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56287EAE1D45EB2600487E53 /* TouchVC.xib */; };
@@ -53,6 +56,8 @@
 		56A520D51D1A84B2003A2B41 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A520D41D1A84B2003A2B41 /* CoreLocation.framework */; };
 		56C274DD1D211EA000C1EB1E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C274DC1D211EA000C1EB1E /* Social.framework */; };
 		56C274DF1D211EB900C1EB1E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C274DE1D211EB900C1EB1E /* Accounts.framework */; };
+		56E5930D1D545A42003436FD /* WLFuZaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E5930B1D545A42003436FD /* WLFuZaVC.m */; };
+		56E5930E1D545A42003436FD /* WLFuZaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E5930C1D545A42003436FD /* WLFuZaVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +93,17 @@
 		5601CBD81D1781C2001612A5 /* RACNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5601CBDC1D1781C2001612A5 /* RACNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACNetUITests.m; sourceTree = "<group>"; };
 		5601CBDE1D1781C2001612A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5602C11C1D5183C300C4C7ED /* WLPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPageVC.h; sourceTree = "<group>"; };
+		5602C11D1D5183C300C4C7ED /* WLPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPageVC.m; sourceTree = "<group>"; };
+		5602C11E1D5183C300C4C7ED /* WLPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLPageVC.xib; sourceTree = "<group>"; };
+		5602C1211D51873000C4C7ED /* CutPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutPageVC.h; sourceTree = "<group>"; };
+		5602C1221D51873000C4C7ED /* CutPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutPageVC.m; sourceTree = "<group>"; };
+		5602C1231D51873000C4C7ED /* CutPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CutPageVC.xib; sourceTree = "<group>"; };
+		5602C1261D51C34800C4C7ED /* WLPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPViewController.h; sourceTree = "<group>"; };
+		5602C1271D51C34800C4C7ED /* WLPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPViewController.m; sourceTree = "<group>"; };
+		5602C1291D51CA3400C4C7ED /* MYPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPageVC.h; sourceTree = "<group>"; };
+		5602C12A1D51CA3400C4C7ED /* MYPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPageVC.m; sourceTree = "<group>"; };
+		5602C12B1D51CA3400C4C7ED /* MYPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYPageVC.xib; sourceTree = "<group>"; };
 		56287E7A1D45E63700487E53 /* signInRACSignalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signInRACSignalModel.h; sourceTree = "<group>"; };
 		56287E7B1D45E63700487E53 /* signInRACSignalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signInRACSignalModel.m; sourceTree = "<group>"; };
 		56287E7C1D45E63700487E53 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -106,12 +122,6 @@
 		56287E8E1D45E63700487E53 /* SubscribeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewModel.m; sourceTree = "<group>"; };
 		56287E901D45E63700487E53 /* RequestHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHttpTool.h; sourceTree = "<group>"; };
 		56287E911D45E63700487E53 /* RequestHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHttpTool.m; sourceTree = "<group>"; };
-		56287E931D45E63700487E53 /* CollectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewVC.h; sourceTree = "<group>"; };
-		56287E941D45E63700487E53 /* CollectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewVC.m; sourceTree = "<group>"; };
-		56287E951D45E63700487E53 /* CollectViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectViewVC.xib; sourceTree = "<group>"; };
-		56287E961D45E63700487E53 /* ProductCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCVCell.h; sourceTree = "<group>"; };
-		56287E971D45E63700487E53 /* ProductCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCVCell.m; sourceTree = "<group>"; };
-		56287E981D45E63700487E53 /* ProductCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCVCell.xib; sourceTree = "<group>"; };
 		56287E9A1D45E63700487E53 /* NSString+EmailAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmailAdditions.h"; sourceTree = "<group>"; };
 		56287E9B1D45E63700487E53 /* NSString+EmailAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmailAdditions.m"; sourceTree = "<group>"; };
 		56287EAC1D45EB2600487E53 /* TouchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchVC.h; sourceTree = "<group>"; };
@@ -149,6 +159,9 @@
 		56A520D41D1A84B2003A2B41 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56C274DC1D211EA000C1EB1E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		56C274DE1D211EB900C1EB1E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		56E5930A1D545A42003436FD /* WLFuZaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFuZaVC.h; sourceTree = "<group>"; };
+		56E5930B1D545A42003436FD /* WLFuZaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFuZaVC.m; sourceTree = "<group>"; };
+		56E5930C1D545A42003436FD /* WLFuZaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLFuZaVC.xib; sourceTree = "<group>"; };
 		600C2215BB2EE52067FCF5B8 /* Pods-RACNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACNet/Pods-RACNet.release.xcconfig"; sourceTree = "<group>"; };
 		A36340278EF3759DE1D2025B /* Pods-RACNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACNet/Pods-RACNet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,6 +269,27 @@
 			path = RACNetUITests;
 			sourceTree = "<group>";
 		};
+		5602C11B1D5183A200C4C7ED /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5602C11C1D5183C300C4C7ED /* WLPageVC.h */,
+				5602C11D1D5183C300C4C7ED /* WLPageVC.m */,
+				5602C11E1D5183C300C4C7ED /* WLPageVC.xib */,
+				5602C1211D51873000C4C7ED /* CutPageVC.h */,
+				5602C1221D51873000C4C7ED /* CutPageVC.m */,
+				5602C1231D51873000C4C7ED /* CutPageVC.xib */,
+				5602C1261D51C34800C4C7ED /* WLPViewController.h */,
+				5602C1271D51C34800C4C7ED /* WLPViewController.m */,
+				5602C1291D51CA3400C4C7ED /* MYPageVC.h */,
+				5602C12A1D51CA3400C4C7ED /* MYPageVC.m */,
+				5602C12B1D51CA3400C4C7ED /* MYPageVC.xib */,
+				56E5930A1D545A42003436FD /* WLFuZaVC.h */,
+				56E5930B1D545A42003436FD /* WLFuZaVC.m */,
+				56E5930C1D545A42003436FD /* WLFuZaVC.xib */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
 		56287E791D45E63700487E53 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,12 +365,6 @@
 		56287E921D45E63700487E53 /* CollectViewVC */ = {
 			isa = PBXGroup;
 			children = (
-				56287E931D45E63700487E53 /* CollectViewVC.h */,
-				56287E941D45E63700487E53 /* CollectViewVC.m */,
-				56287E951D45E63700487E53 /* CollectViewVC.xib */,
-				56287E961D45E63700487E53 /* ProductCVCell.h */,
-				56287E971D45E63700487E53 /* ProductCVCell.m */,
-				56287E981D45E63700487E53 /* ProductCVCell.xib */,
 			);
 			path = CollectViewVC;
 			sourceTree = "<group>";
@@ -389,6 +417,7 @@
 		5644FBB61D4AF4A700C13B68 /* PageViewController(引导页) */ = {
 			isa = PBXGroup;
 			children = (
+				5602C11B1D5183A200C4C7ED /* PageViewController */,
 				5644FBBF1D4AF8B200C13B68 /* WLPageViewController.h */,
 				5644FBC01D4AF8B200C13B68 /* WLPageViewController.m */,
 				5644FBC11D4AF8B200C13B68 /* WLPageViewController.xib */,
@@ -530,11 +559,13 @@
 			files = (
 				5644FBC51D4B4E4E00C13B68 /* newsDetails.css in Resources */,
 				56287EA21D45E63700487E53 /* RWTweetCell.xib in Resources */,
-				56287EA71D45E63700487E53 /* CollectViewVC.xib in Resources */,
+				5602C1251D51873000C4C7ED /* CutPageVC.xib in Resources */,
+				56E5930E1D545A42003436FD /* WLFuZaVC.xib in Resources */,
 				568CEA651D239C67006DB84D /* GTI.jpg in Resources */,
 				56287E9F1D45E63700487E53 /* searchTwitterVC.xib in Resources */,
+				5602C1201D5183C300C4C7ED /* WLPageVC.xib in Resources */,
 				5644FBC31D4AF8B200C13B68 /* WLPageViewController.xib in Resources */,
-				56287EA91D45E63700487E53 /* ProductCVCell.xib in Resources */,
+				5602C12D1D51CA3400C4C7ED /* MYPageVC.xib in Resources */,
 				5601CBC71D1781C2001612A5 /* LaunchScreen.storyboard in Resources */,
 				5644FBC71D4B52A900C13B68 /* newsDetails.js in Resources */,
 				56287EB01D45EB2600487E53 /* TouchVC.xib in Resources */,
@@ -614,26 +645,29 @@
 			files = (
 				56287EB61D462F7800487E53 /* WLBaseView.m in Sources */,
 				56287EB91D462F9200487E53 /* WLOne.m in Sources */,
+				5602C1281D51C34800C4C7ED /* WLPViewController.m in Sources */,
 				56287EBF1D462FAF00487E53 /* WLThree.m in Sources */,
 				56287EB31D45EB3A00487E53 /* TouchView.m in Sources */,
 				5601CBBC1D1781C1001612A5 /* AppDelegate.m in Sources */,
 				56287E9E1D45E63700487E53 /* searchTwitterVC.m in Sources */,
 				56287EA01D45E63700487E53 /* RWTweet.m in Sources */,
 				56287EC51D462FF100487E53 /* WLFive.m in Sources */,
-				56287EA61D45E63700487E53 /* CollectViewVC.m in Sources */,
 				56287EA31D45E63700487E53 /* RWTweetViewModel.m in Sources */,
 				56287EA41D45E63700487E53 /* SubscribeViewModel.m in Sources */,
+				56E5930D1D545A42003436FD /* WLFuZaVC.m in Sources */,
 				56287EC21D462FBD00487E53 /* WLFour.m in Sources */,
 				56287EBC1D462FA000487E53 /* WLTwo.m in Sources */,
 				56287EAA1D45E63700487E53 /* NSString+EmailAdditions.m in Sources */,
 				56287EA51D45E63700487E53 /* RequestHttpTool.m in Sources */,
 				56287E9C1D45E63700487E53 /* signInRACSignalModel.m in Sources */,
 				5644FBC21D4AF8B200C13B68 /* WLPageViewController.m in Sources */,
-				56287EA81D45E63700487E53 /* ProductCVCell.m in Sources */,
+				5602C11F1D5183C300C4C7ED /* WLPageVC.m in Sources */,
 				56287ECB1D4760D000487E53 /* PopButton.m in Sources */,
 				56287EA11D45E63700487E53 /* RWTweetCell.m in Sources */,
 				56287E9D1D45E63700487E53 /* ViewController.m in Sources */,
+				5602C1241D51873000C4C7ED /* CutPageVC.m in Sources */,
 				56287EAF1D45EB2600487E53 /* TouchVC.m in Sources */,
+				5602C12C1D51CA3400C4C7ED /* MYPageVC.m in Sources */,
 				5601CBB91D1781C1001612A5 /* main.m in Sources */,
 				56287EC81D474EB000487E53 /* KeyWindow.m in Sources */,
 			);

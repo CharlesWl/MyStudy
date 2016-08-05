@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2ED9DE2C4202576DDD1EB2B19BB73EF13B3138F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2ED9DE2C4202576DDD1EB2B19BB73EF13B3138F8" : 0,
+    "2A89D548780DAADF02ACFDF3BE843BBE68F958E4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0FEC0645-26B9-45B7-8C7B-369E9D7AD309",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2ED9DE2C4202576DDD1EB2B19BB73EF13B3138F8" : "MyStudy\/",
+    "2A89D548780DAADF02ACFDF3BE843BBE68F958E4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RACNet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RACNet\/RACNet.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CharlesWl\/Marketing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A89D548780DAADF02ACFDF3BE843BBE68F958E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CharlesWl\/MyStudy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ED9DE2C4202576DDD1EB2B19BB73EF13B3138F8"
+    }
+  ]
+}

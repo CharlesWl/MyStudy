@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TouchVC">
             <connections>
+                <outlet property="headView" destination="yTb-bM-gOS" id="i97-NF-MUs"/>
+                <outlet property="myTV" destination="XH3-4D-xcH" id="pE8-ba-H4B"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -33,7 +35,7 @@
                     </subviews>
                     <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-3a-RN2" customClass="PopButton">
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-3a-RN2" customClass="PopButton">
                     <rect key="frame" x="135" y="557" width="105" height="50"/>
                     <color key="backgroundColor" red="1" green="0.30588235289999999" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="点击弹出对话框">
@@ -43,10 +45,43 @@
                         <action selector="didClickOnAdd:" destination="-1" eventType="touchUpInside" id="Ih6-Ix-XSu"/>
                     </connections>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XH3-4D-xcH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTb-bM-gOS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mH7-AH-3s8">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                            <state key="normal" title="点击"/>
+                            <connections>
+                                <action selector="didClickOnDianji:" destination="-1" eventType="touchUpInside" id="Qm6-Ue-NV7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.30588235289999999" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="mH7-AH-3s8" firstAttribute="top" secondItem="yTb-bM-gOS" secondAttribute="top" id="5Hh-eM-yF5"/>
+                        <constraint firstItem="mH7-AH-3s8" firstAttribute="leading" secondItem="yTb-bM-gOS" secondAttribute="leading" id="MAi-Dx-GBC"/>
+                        <constraint firstAttribute="height" constant="200" id="UGT-MI-am9"/>
+                        <constraint firstAttribute="trailing" secondItem="mH7-AH-3s8" secondAttribute="trailing" id="dkR-Ww-1RE"/>
+                        <constraint firstAttribute="bottom" secondItem="mH7-AH-3s8" secondAttribute="bottom" id="mwq-MP-fIU"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.3921568627" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="yTb-bM-gOS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DBM-GZ-hWg"/>
+                <constraint firstAttribute="bottom" secondItem="XH3-4D-xcH" secondAttribute="bottom" id="DM5-yk-pD6"/>
+                <constraint firstAttribute="trailing" secondItem="XH3-4D-xcH" secondAttribute="trailing" id="Gto-2t-irM"/>
+                <constraint firstItem="yTb-bM-gOS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SM9-m3-5hf"/>
+                <constraint firstAttribute="trailing" secondItem="yTb-bM-gOS" secondAttribute="trailing" id="kdR-TY-mYE"/>
+                <constraint firstItem="XH3-4D-xcH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xx3-uh-JNx"/>
+                <constraint firstItem="XH3-4D-xcH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zDv-bn-PS5"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="26.5" y="303.5"/>
+            <point key="canvasLocation" x="-268.5" y="314.5"/>
         </view>
     </objects>
 </document>

@@ -17,19 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.WLWebView.delegate = self;
-    //http://c.m.163.com/nc/article/BT4OPGE600031H2L/full.html
-    //创建url
-    NSURL *url = [NSURL URLWithString:@"http://c.m.163.com/nc/article/BT4OPGE600031H2L/full.html"];
-    //请求
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-    //请求任务
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionTask *task = [session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        //解析数据
-        [self jsonWithData:data];
-    }];
-    [task resume];
+//    self.WLWebView.delegate = self;
+//    //http://c.m.163.com/nc/article/BT4OPGE600031H2L/full.html
+//    //创建url
+//    NSURL *url = [NSURL URLWithString:@"http://c.m.163.com/nc/article/BT4OPGE600031H2L/full.html"];
+//    //请求
+//    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+//    //请求任务
+//    NSURLSession *session = [NSURLSession sharedSession];
+//    NSURLSessionTask *task = [session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//        //解析数据
+//        [self jsonWithData:data];
+//    }];
+//    [task resume];
 }
 
 - (void)jsonWithData:(NSData *)data {
